@@ -49,6 +49,7 @@ end
 
 mean(corrRes)
 median(corrRes)
+length(findall(x->x < 0, corrRes))
 nquantile(vec(corrRes), 5)
 minimum(corrRes)
 maximum(corrRes)

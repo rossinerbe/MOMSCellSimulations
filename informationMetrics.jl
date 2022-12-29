@@ -9,7 +9,7 @@ testSim = cellSimulation(testGS, testIC, 1000)
 #across different simulations, of different sizes
 #use mutual information and transfer entropy
 using TransferEntropy
-using Statistic
+using Statistics
 #create data set with many cells from the same gene set
 mcds = makeMultiCellDataSet(testGS, testIC, 500, 2000)
 
