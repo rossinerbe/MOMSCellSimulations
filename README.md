@@ -1,4 +1,4 @@
-# Multi-Omic Mechanistic Simulations(MOMS) 
+# Multi-Omic Mechanistic Simulations (MOMS) 
 Example to run a random 100 gene simulation for 1000 time points for one gene:
  ```
 include("simulateCells.jl");
